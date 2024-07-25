@@ -1,0 +1,29 @@
+Gere um diagrama de classes (usando a sintaxe Mermaid) tendo em vista o seguinte JSON que representa um usuário de um banco. Mantenha uma estrutura simples e fiel ao modelo que eu vou passar. Além disso, mantenha o nome das classes em ingles.
+
+Exemplo:
+
+{
+  "name": "Maicon",
+  "account": {
+    "number": "00000000-0",
+    "agency": "0000",
+    "balance": 1324.64,
+    "limit": 1000.00
+  },
+  "features": [
+    {
+      "icon": "URL",
+      "description": "Descrição da feature"
+    }
+  ],
+  "card": {
+    "number": "xxxx xxxx xxxx 0000",
+    "limit": 1000.00
+  },
+  "news": [
+    {
+      "icon": "URL",
+      "description": "Descrição da Novidade"
+    }
+  ]
+}
