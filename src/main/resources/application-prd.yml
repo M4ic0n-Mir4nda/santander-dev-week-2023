@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate # após o create pode ser retornado para validate para não ficar recriando toda vez o BD
